@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0042)http://172.16.0.14:8081/YinLongAUTOMobile/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>银隆信息系统</title>
+<link rel="stylesheet" href="yinlong_files/main.css">
+<link href="yinlong_files/jquerysctipttop.css" rel="stylesheet" type="text/css">
+
+<link rel="shortcut icon" href="yinlong_files/logo.ico" type="image/x-icon">  
+
+</head>
+<body style="">
+<p align="right"><img src="yinlong_files/logo.png" width="203" height="58">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p align="center" style="margin-top:10px;"><font size="7" color="#89b929" >银隆信息系统网址</font>
+<div id="wrap">
+  <div id="showcase" class="noselect" style="position: relative; overflow: hidden; visibility: visible;">
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p><span class="noselect" style="position: relative; overflow: hidden; visibility: visible;"> 
+ 	<img class="cloud9-item" src="yinlong_files/银隆官网.png" height="135" alt="yinlongguanwang" onclick="jumpTo(this)" style="position: absolute; transform-origin: 0px 0px 0px; z-index: 100; transform: translate(593px, 94px) scale(1);"> 
+    <img class="cloud9-item" src="yinlong_files/电话查询系统.png"  height="150"alt="dianhuachaxunxitong" onclick="jumpTo(this)" style="position: absolute; transform-origin: 0px 0px 0px; z-index: 50; transform: translate(665px, 22px) scale(0.5);"> 
+
+    <img class="cloud9-item" src="yinlong_files/整车看板.png"  height="150"alt="zhengchekanban" onclick="jumpTo(this)" style="position: absolute; transform-origin: 0px 0px 0px; z-index: 75; transform: translate(1110.19px, 46px) scale(0.75);"> 
+  	<img class="cloud9-item" src="yinlong_files/信息系统.png" height="150" alt="xinxixitong" onclick="jumpTo(this)" style="position: absolute; transform-origin: 0px 0px 0px; z-index: 74; transform: translate(145.935px, 46px) scale(0.75);">
+    <img class="cloud9-item" src="yinlong_files/大数据平台.png"  height="150"alt="dashujupingtai" onclick="jumpTo(this)" style="position: absolute; transform-origin: 0px 0px 0px; z-index: 50; transform: translate(665px, 22px) scale(0.5);"> 
+    <img  src="yinlong_files/电池生产看板.png" alt="dianchishengchankanban"  height="150" align="middle" class="cloud9-item" style="position: absolute; transform-origin: 0px 0px 0px; z-index: 100; transform: translate(593px, 94px) scale(1);" onclick="jumpTo(this)"> 
+    <img class="cloud9-item" src="yinlong_files/电池生产效率.png" height="150"alt="dianchishengchanxiaolv" onclick="jumpTo(this)" style="position: absolute; transform-origin: 0px 0px 0px; z-index: 74; transform: translate(145.935px, 46px) scale(0.75);"> 
+    <img class="cloud9-item" src="yinlong_files/重点项目.png" height="150" alt="zhongdianxiangmu" onclick="jumpTo(this)" style="position: absolute; transform-origin: 0px 0px 0px; z-index: 75; transform: translate(1110.19px, 46px) scale(0.75);">
+    <img class="cloud9-item" src="yinlong_files/整车MES.png"  height="150"alt="zhengchemes" onclick="jumpTo(this)" style="position: absolute; transform-origin: 0px 0px 0px; z-index: 75; transform: translate(1110.19px, 46px) scale(0.75);"> 
+
+    <img class="cloud9-item" src="yinlong_files/电池.png" height="150" alt="dianchimes" onclick="jumpTo(this)" style="position: absolute; transform-origin: 0px 0px 0px; z-index: 100; transform: translate(593px, 94px) scale(1);">  </span></p>
+    <img class="cloud9-item" src="yinlong_files/集团邮箱.png"  height="150"alt="jituanyouxiang" onclick="jumpTo(this)" style="position: absolute; transform-origin: 0px 0px 0px; z-index: 75; transform: translate(1110.19px, 46px) scale(0.75);">
+    <img class="cloud9-item" src="yinlong_files/ERP.png" height="150" alt="ERP" onclick="jumpTo(this)" style="position: absolute; transform-origin: 0px 0px 0px; z-index: 75; transform: translate(1110.19px, 46px) scale(0.75);"> 
+
+    <img class="cloud9-item" src="yinlong_files/电子签审系统.png"  height="150"alt="dianziqianshen" onclick="jumpTo(this)" style="position: absolute; transform-origin: 0px 0px 0px; z-index: 75; transform: translate(1110.19px, 46px) scale(0.75);"> 
+</div>
+<p id="item-title" style="opacity: 0.5;">&nbsp;</p>
+<div class="nav"> 
+<img class="left" src="yinlong_files/shangyibu.png" width="60" height="60"> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img class="right" src="yinlong_files/xiayibu.png" width="60" height="60">
+&nbsp;
+<p><font color="#89b929" >Copyright ©2019  银隆信息系统网址 - Powered By Bytely</p>
+</div>
+</div>
+<script src="yinlong_files/jquery-1.10.2.min.js"></script>
+<script src="yinlong_files/jquery.reflection.js"></script>
+<script src="yinlong_files/jquery.cloud9carousel.js"></script>
+<script>
+    $(function() {
+      var showcase = $("#showcase")
+
+      showcase.Cloud9Carousel( {
+        yPos: 42,
+        yRadius: 250,
+        mirrorOptions: {
+          gap: 50,
+          height: 5
+        },
+        buttonLeft: $(".nav > .left"),
+        buttonRight: $(".nav > .right"),
+        autoPlay: true,
+        bringToFront: true,
+        onRendered: showcaseUpdated,
+        onLoaded: function() {
+          showcase.css( 'visibility', 'visible' )
+          showcase.css( 'display', 'none' )
+          showcase.fadeIn( 1500 )
+        }
+      } )
+
+      function showcaseUpdated( showcase ) {
+        var title = $('#item-title').html(
+          $(showcase.nearestItem()).attr( 'alt' )
+        )
+
+        var c = Math.cos((showcase.floatIndex() % 1) * 2 * Math.PI)
+        title.css('opacity', 0.5 + (0.5 * c))
+      }
+
+      // Simulate physical button click effect
+      $('.nav > button').click( function( e ) {
+        var b = $(e.target).addClass( 'down' )
+        setTimeout( function() { b.removeClass( 'down' ) }, 80 )
+      } )
+
+      $(document).keydown( function( e ) {
+        switch( e.keyCode ) {
+          /* left arrow */
+          case 37:
+            $('.nav > .left').click()
+            break
+
+          /* right arrow */
+          case 39:
+            $('.nav > .right').click()
+        }
+      } )
+    })
+    
+    function jumpTo(event){
+    	if(event.alt == "yinlongguanwang"){
+			//官网
+    		window.open("http://www.zhyle.com/")
+    	}else	if(event.alt == "ERP"){
+			//ERP
+			window.open("http://erp.yinlong.com:8001/OA_HTML/RF.jsp?function_id=28716&resp_id=-1&resp_appl_id=-1&security_group_id=0&lang_code=ZHS&oas=M-DdWTDOgu3m6nr4gWASSg..&params=KQ0ueFd3h5ncJDQ0.532EQ")
+    	}else	if(event.alt == "zhengchemes"){
+			//整车MES
+    		window.open("http://172.16.0.12:8080/PlantOperations/ShopOperations.jnlp")
+    	}else	if(event.alt == "dianchimes"){
+			//电池MES
+    		window.open("http://172.16.0.12:8080/PlantOperations/ProcessDesigner.jnlp")
+    	}else	if(event.alt == "dianziqianshen"){
+			//电子签审
+    		window.open("http://oa.yinlong.com/jeesite/a/login")
+    	}else	if(event.alt == "dianhuachaxunxitong"){
+			//电话查询
+    		window.open("http://192.168.2.24/telapp/check.aspx")
+    	}else	if(event.alt == "jituanyouxiang"){
+			//集团邮箱
+    		window.open("http://mail.zhyle.com/")
+    	}else	if(event.alt == "xinxixitong"){
+			//信息系统
+    		window.open("http://172.25.31.129:8888/login/")
+    	}else	if(event.alt == "dianchishengchankanban"){
+			//电池各工序生产看板
+    		window.open("http://192.168.2.123:8081/YinLongMobile/AllProcessChart2.jsp")
+    	}else	if(event.alt == "dianchixiaolv"){
+			//电池班次人均产能看板
+    		window.open("http:// 192.168.2.123:8081/YinLongMobile/PersonEff5.jsp")
+    	}else	if(event.alt == "dianchizhengti"){
+			//电池整体人均产能看板
+    		window.open("http:// 192.168.2.123:8081/YinLongMobile/PersonEff5.jsp")
+    	}else	if(event.alt == "zhengchekanban"){
+			//整车看板
+    		window.open("http://172.16.0.14:8081/YinLongAUTOMobile/")
+		}else	if(event.alt == "equ"){
+    		window.open("./EQP/index.jsp")
+    	}else	if(event.alt == "product"){
+    		window.open("./PMC/index.jsp")
+    	}else	if(event.alt == "product"){
+    		window.open("./PMC/index.jsp")
+    	}else	if(event.alt == "product"){
+    		window.open("./PMC/index.jsp")
+    	}else	if(event.alt == "product"){
+    		window.open("./PMC/index.jsp")
+    	}else	if(event.alt == "product"){
+    		window.open("./PMC/index.jsp")
+    	}
+		
+		
+		
+    }
+    
+  </script>
+
+</body></html>
